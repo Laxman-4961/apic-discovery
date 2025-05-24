@@ -7,7 +7,7 @@ on:
 
 jobs:
   import_and_discover:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     env:
       APIKEY: ${{ secrets.POSTMAN_API_KEY }}
